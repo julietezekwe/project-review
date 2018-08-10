@@ -105,10 +105,8 @@ app.post('/process/url', (req, res) => {
   }
 });
 
+const port = parseInt(process.env.PORT, 10) || 8000;
 
-
-
-
-app.listen(8000, ()=> {
-    console.log('Server started');
+app.listen(port, ()=> {
+    console.log(`Server started on port: ${port}`);
 })

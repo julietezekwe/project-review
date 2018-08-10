@@ -2,8 +2,8 @@ import express from "express";
 import axios from "axios";
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
-const path = require('path');
-const expressValidator =require('express-validator');
+import path from "path";
+import expressValidator from "express-validator";
 
 const app = express();
 

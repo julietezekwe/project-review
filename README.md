@@ -3,8 +3,8 @@ Yelp and Google Maps Review downloader project
 
 Background
 Some of our customers have requested that we handle reviews in our products (e.g. Yelp, Google Maps). As a first step, we would like to be able to download the reviews.
-User interface
-When the user submits the URL, the download the data from the reviews (top 5 reviews for google) and user can export as a CSV file in the following form
+# User interface
+When the user submits the URL of location they want to view, the data is download from the reviews (top 5 reviews for google) and user can export as a CSV file in the following form
 ith this website where a user can input a URL from a site, (google map or yelp business) in the form 
 
 for the google review
